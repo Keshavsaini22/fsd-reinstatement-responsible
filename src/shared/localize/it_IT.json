@@ -1,0 +1,131 @@
+{
+    "appTitle": "Delegazioni di Reincorporazione",
+    "sidebar": {
+        "reinstatementResponsibles": "Responsabili della Reincorporazione",
+        "logout": "Disconnettersi"
+    },
+    "login": {
+        "title": "Delegazioni di Reincorporazione",
+        "button": "Accedi con Google",
+        "accessWithGoogle": "Accesso alle deleghe di reincorporazione",
+        "login": "Accedi",
+        "error": "Errore"
+    },
+    "reinstatementResponsibleStatus": {
+        "active": "Attivo",
+        "inactive": "Inattivo"
+    },
+    "reinstatementResponsiblesListPage": {
+        "title": "Elenco dei Responsabili della Reincorporazione",
+        "create": "Crea",
+        "search": "Cerca responsabile",
+        "headquarter": "Sede",
+        "status": "Stato",
+        "clear": "Cancella"
+    },
+    "reinstatementResponsiblesTable": {
+        "name": "Nome",
+        "headquarter": "Sede",
+        "status": "Stato",
+        "S_No": "N°",
+        "noContent": {
+            "heading": "Nessun dato trovato",
+            "subheading": "Non hai ancora creato alcun Responsabile della Reincorporazione.",
+            "filtermessage": "Nessun responsabile trovato con i parametri di ricerca inseriti. Prova con altri per effettuare una nuova ricerca.",
+            "filterHeading": "Nessun risultato trovato"
+        },
+        "edit": "Modifica",
+        "delete": "Elimina",
+        "view": "Visualizza",
+        "pagination": {
+            "goNext": "Vai alla pagina successiva",
+            "goPrevious": "Vai alla pagina precedente",
+            "rowPerPage": "Righe per pagina:",
+            "of":"di"
+        }
+    },
+    "reinstatementResponsiblesForm": {
+        "title": "Modulo di Creazione dei Responsabili",
+        "titleEdit": "Modulo di Modifica dei Responsabili",
+        "titleMobile": "Crea Reintegrazione",
+        "titleEditMobile": "Modifica", 
+        "firstName": "Nome",
+        "lastName": "Cognome",
+        "headquarter": "Sede",
+        "email": "Email",
+        "status": "Stato",
+        "create": "Crea",
+        "edit": "Aggiorna",
+        "cancel": "Annulla",
+        "cancelAlert": {
+            "title": "Annullare il Responsabile della Reincorporazione?",
+            "body": "Sei sicuro di voler annullare questo Responsabile della Reincorporazione?",
+            "cancelButtonText": "No",
+            "saveButtonText": "Sì"
+        },
+        "updateAlert": {
+            "title": "Modifica il Responsabile della Reincorporazione",
+            "body": "Sei sicuro di voler salvare le modifiche?",
+            "cancelButtonText": "Annulla",
+            "saveButtonText": "Accetta"
+        },
+        "deleteAlert": {
+            "title": "Elimina il Responsabile della Reincorporazione",
+            "body": "Sei sicuro di voler eliminare l'utente",
+            "cancelButtonText": "Annulla",
+            "saveButtonText": "Elimina"
+        },
+        "success": {
+            "update": "Salvato con successo",
+            "delete": "è stato eliminato con successo",
+            "create": "Responsabile della Reincorporazione creato con successo",
+            "changeStatusActive": "Responsabili della Reincorporazione attivati con successo",
+            "changeStatusDeactive": "Responsabili della Reincorporazione disattivati con successo",
+            "fetch": "Responsabili della Reincorporazione recuperati con successo"
+        },
+        "error": {
+            "Request failed with status code 500": "Qualcosa è andato storto",
+            "Request failed with status code 409": "Email già esistente",
+            "update": "Qualcosa è andato storto",
+            "delete": "Qualcosa è andato storto",
+            "create": "Qualcosa è andato storto",
+            "changeStatus": "Qualcosa è andato storto",
+            "fetch": "Qualcosa è andato storto",
+            "fetchNoContent": "Nessun contenuto trovato"
+        }
+    },
+    "reinstatementResponsiblesView": {
+        "title": "Responsabile della Reincorporazione",
+        "titleMobile":"Anteprima",
+        "firstName": "Nome:",
+        "lastName": "Cognome:",
+        "headquarter": "Sede:",
+        "email": "Email:",
+        "status": "Stato:"
+    },
+    "dialogBox": {
+        "save": "Salva",
+        "cancel": "Annulla"
+    },
+    "reinstatementResponsiblesFormSchema": {
+        "firstNameRequiredError": "Il nome è obbligatorio",
+        "firstNameMinError": "Il nome deve essere di almeno 3 caratteri",
+        "firstNameMaxError": "Il nome deve essere al massimo di 250 caratteri",
+        "lastNameRequiredError": "Il cognome è obbligatorio",
+        "lastNameMinError": "Il cognome deve essere di almeno 3 caratteri",
+        "lastNameMaxError": "Il cognome deve essere al massimo di 250 caratteri",
+        "emailRequiredError": "L'email è obbligatoria",
+        "emailRequiredMax": "L'email deve essere al massimo di 320 caratteri",
+        "emailInvalidError": "Indirizzo email non valido",
+        "headquarterError": "Seleziona una sede"
+    },
+    "filterModal": {
+        "title": "Filtro",
+        "headquarter": "Sede",
+        "status": "Stato",
+        "apply": "Applica"
+    },
+    "select": {
+        "noOptions": "Nessuna opzione"
+    }
+}

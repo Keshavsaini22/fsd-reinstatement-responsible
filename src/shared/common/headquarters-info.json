@@ -1,0 +1,677 @@
+[
+    {
+        "abbreviation": "AO",
+        "name": "Angola",
+        "translations": {
+            "en_US": "Angola",
+            "pt_BR": "Angola",
+            "it_IT": "Angola",
+            "fr_FR": "Angola"
+        },
+        "country": {
+            "id": 7,
+            "iso2": "AO"
+        },
+        "legacy_id": 154
+    },
+    {
+        "abbreviation": "DZ",
+        "name": "Argelia",
+        "translations": {
+            "en_US": "Argelia",
+            "pt_BR": "Argélia",
+            "it_IT": "Algeria",
+            "fr_FR": "Algérie"
+        },
+        "country": {
+            "id": 4,
+            "iso2": "DZ"
+        },
+        "legacy_id": 179
+    },
+    {
+        "abbreviation": "AR",
+        "name": "Argentina",
+        "translations": {
+            "en_US": "Argentina",
+            "pt_BR": "Argentina",
+            "it_IT": "Argentina",
+            "fr_FR": "Argentine"
+        },
+        "country": {
+            "id": 11,
+            "iso2": "AR"
+        },
+        "legacy_id": 1
+    },
+    {
+        "abbreviation": "BO",
+        "name": "Bolivia",
+        "translations": {
+            "en_US": "Bolivia",
+            "pt_BR": "Bolívia",
+            "it_IT": "Bolivia",
+            "fr_FR": "Bolivie"
+        },
+        "country": {
+            "id": 27,
+            "iso2": "BO"
+        },
+        "legacy_id": 2
+    },
+    {
+        "abbreviation": "BR",
+        "name": "Brasil",
+        "translations": {
+            "en_US": "Brazil",
+            "pt_BR": "Brasil",
+            "it_IT": "Brasile",
+            "fr_FR": "Brésil"
+        },
+        "country": {
+            "id": 31,
+            "iso2": "BR"
+        },
+        "legacy_id": 3
+    },
+    {
+        "abbreviation": "CV",
+        "name": "Cabo Verde",
+        "translations": {
+            "en_US": "Cape Verde",
+            "pt_BR": "Cabo Verde",
+            "it_IT": "Capo Verde",
+            "fr_FR": "Cap Vert"
+        },
+        "country": {
+            "id": 40,
+            "iso2": "CV"
+        },
+        "legacy_id": 155
+    },
+    {
+        "abbreviation": "CM",
+        "name": "Camerún",
+        "translations": {
+            "en_US": "Cameroon",
+            "pt_BR": "Camarões",
+            "it_IT": "Camerun",
+            "fr_FR": "Cameroun"
+        },
+        "country": {
+            "id": 38,
+            "iso2": "CM"
+        },
+        "legacy_id": 172
+    },
+    {
+        "abbreviation": "CL",
+        "name": "Chile",
+        "translations": {
+            "en_US": "Chile",
+            "pt_BR": "Chile",
+            "it_IT": "Cile",
+            "fr_FR": "Chili"
+        },
+        "country": {
+            "id": 44,
+            "iso2": "CL"
+        },
+        "legacy_id": 4
+    },
+    {
+        "abbreviation": "CN",
+        "name": "China",
+        "translations": {
+            "en_US": "China",
+            "pt_BR": "China",
+            "it_IT": "Cina",
+            "fr_FR": "Chine"
+        },
+        "country": {
+            "id": 45,
+            "iso2": "CN"
+        },
+        "legacy_id": 178
+    },
+    {
+        "abbreviation": "CO",
+        "name": "Colombia",
+        "translations": {
+            "en_US": "Colombia",
+            "pt_BR": "Colômbia",
+            "it_IT": "Colombia",
+            "fr_FR": "Colombie"
+        },
+        "country": {
+            "id": 48,
+            "iso2": "CO"
+        },
+        "legacy_id": 5
+    },
+    {
+        "abbreviation": "GK",
+        "name": "Congo-Kinshasa",
+        "translations": {
+            "en_US": "Congo-Kinshasa",
+            "pt_BR": "",
+            "it_IT": "",
+            "fr_FR": ""
+        },
+        "country": {
+            "id": null,
+            "iso2": "GK"
+        },
+        "legacy_id": 187
+    },
+    {
+        "abbreviation": "CI",
+        "name": "Costa de Marfil",
+        "translations": {
+            "en_US": "Marfil Coast",
+            "pt_BR": "Costa do Marfim",
+            "it_IT": "Costa D'Avorio",
+            "fr_FR": "Côte d'Ivoire"
+        },
+        "country": {
+            "id": 54,
+            "iso2": "CI"
+        },
+        "legacy_id": 173
+    },
+    {
+        "abbreviation": "CR",
+        "name": "Costa Rica",
+        "translations": {
+            "en_US": "Costa Rica",
+            "pt_BR": "Costa Rica",
+            "it_IT": "Costa Rica",
+            "fr_FR": "Costa Rica"
+        },
+        "country": {
+            "id": 53,
+            "iso2": "CR"
+        },
+        "legacy_id": 147
+    },
+    {
+        "abbreviation": "HR",
+        "name": "Croacia",
+        "translations": {
+            "en_US": "Croacia",
+            "pt_BR": "Croácia",
+            "it_IT": "Croazia",
+            "fr_FR": "Croatie"
+        },
+        "country": {
+            "id": 55,
+            "iso2": "HR"
+        },
+        "legacy_id": 183
+    },
+    {
+        "abbreviation": "CU",
+        "name": "Cuba",
+        "translations": {
+            "en_US": "Cuba",
+            "pt_BR": "Cuba",
+            "it_IT": "Cuba",
+            "fr_FR": "Cuba"
+        },
+        "country": {
+            "id": 56,
+            "iso2": "CU"
+        },
+        "legacy_id": 185
+    },
+    {
+        "abbreviation": "EC",
+        "name": "Ecuador",
+        "translations": {
+            "en_US": "Ecuador",
+            "pt_BR": "Equador",
+            "it_IT": "Ecuador",
+            "fr_FR": "Équateur"
+        },
+        "country": {
+            "id": 64,
+            "iso2": "EC"
+        },
+        "legacy_id": 6
+    },
+    {
+        "abbreviation": "SV",
+        "name": "El Salvador",
+        "translations": {
+            "en_US": "El Salvador",
+            "pt_BR": "El Salvador",
+            "it_IT": "El Salvador",
+            "fr_FR": "Salvador"
+        },
+        "country": {
+            "id": 66,
+            "iso2": "SV"
+        },
+        "legacy_id": 161
+    },
+    {
+        "abbreviation": "ES",
+        "name": "España",
+        "translations": {
+            "en_US": "Spain",
+            "pt_BR": "Espanha",
+            "it_IT": "Spagna",
+            "fr_FR": "Espagne"
+        },
+        "country": {
+            "id": 207,
+            "iso2": "ES"
+        },
+        "legacy_id": 7
+    },
+    {
+        "abbreviation": "US",
+        "name": "Estados Unidos",
+        "translations": {
+            "en_US": "United States",
+            "pt_BR": "Estados Unidos",
+            "it_IT": "Stati Uniti D'America",
+            "fr_FR": "États-Unis"
+        },
+        "country": {
+            "id": 233,
+            "iso2": "US"
+        },
+        "legacy_id": 148
+    },
+    {
+        "abbreviation": "GA",
+        "name": "Gabón",
+        "translations": {
+            "en_US": "Gabon",
+            "pt_BR": "Gabão",
+            "it_IT": "Gabon",
+            "fr_FR": "Gabon"
+        },
+        "country": {
+            "id": 79,
+            "iso2": "GA"
+        },
+        "legacy_id": 186
+    },
+    {
+        "abbreviation": "GH",
+        "name": "Ghana",
+        "translations": {
+            "en_US": "Ghana",
+            "pt_BR": "Gana",
+            "it_IT": "Ghana",
+            "fr_FR": "Ghana"
+        },
+        "country": {
+            "id": 83,
+            "iso2": "GH"
+        },
+        "legacy_id": 182
+    },
+    {
+        "abbreviation": "GR",
+        "name": "Grecia",
+        "translations": {
+            "en_US": "Greece",
+            "pt_BR": "Grécia",
+            "it_IT": "Grecia",
+            "fr_FR": "Grèce"
+        },
+        "country": {
+            "id": 85,
+            "iso2": "GR"
+        },
+        "legacy_id": 175
+    },
+    {
+        "abbreviation": "GT",
+        "name": "Guatemala",
+        "translations": {
+            "en_US": "Guatemala",
+            "pt_BR": "Guatemala",
+            "it_IT": "Guatemala",
+            "fr_FR": "Guatemala"
+        },
+        "country": {
+            "id": 90,
+            "iso2": "GT"
+        },
+        "legacy_id": 144
+    },
+    {
+        "abbreviation": "GW",
+        "name": "Guiné-Bissau",
+        "translations": {
+            "en_US": "Guinea-Bissau",
+            "pt_BR": "Guiné-Bissau",
+            "it_IT": "Guinea-Bissau",
+            "fr_FR": "Guinée-Bissau"
+        },
+        "country": {
+            "id": 93,
+            "iso2": "GW"
+        },
+        "legacy_id": 163
+    },
+    {
+        "abbreviation": "GQ",
+        "name": "Guinea Ecuatorial",
+        "translations": {
+            "en_US": "Equatorial Guinea",
+            "pt_BR": "Guiné Equatorial",
+            "it_IT": "Guinea Equatoriale",
+            "fr_FR": "Guinée-Équatoriale"
+        },
+        "country": {
+            "id": 67,
+            "iso2": "GQ"
+        },
+        "legacy_id": 168
+    },
+    {
+        "abbreviation": "HN",
+        "name": "Honduras",
+        "translations": {
+            "en_US": "Honduras",
+            "pt_BR": "Honduras",
+            "it_IT": "Honduras",
+            "fr_FR": "Honduras"
+        },
+        "country": {
+            "id": 97,
+            "iso2": "HN"
+        },
+        "legacy_id": 159
+    },
+    {
+        "abbreviation": "IT",
+        "name": "Italia",
+        "translations": {
+            "en_US": "Italy",
+            "pt_BR": "Itália",
+            "it_IT": "Italia",
+            "fr_FR": "Italie"
+        },
+        "country": {
+            "id": 107,
+            "iso2": "IT"
+        },
+        "legacy_id": 145
+    },
+    {
+        "abbreviation": "ML",
+        "name": "Malí",
+        "translations": {
+            "en_US": "Mali",
+            "pt_BR": "Mali",
+            "it_IT": "Mali",
+            "fr_FR": "Mali"
+        },
+        "country": {
+            "id": 134,
+            "iso2": "ML"
+        },
+        "legacy_id": 177
+    },
+    {
+        "abbreviation": "MA",
+        "name": "Marruecos",
+        "translations": {
+            "en_US": "Morocco",
+            "pt_BR": "Marrocos",
+            "it_IT": "Marocco",
+            "fr_FR": "Maroc"
+        },
+        "country": {
+            "id": 149,
+            "iso2": "MA"
+        },
+        "legacy_id": 180
+    },
+    {
+        "abbreviation": "MX",
+        "name": "México",
+        "translations": {
+            "en_US": "Mexico",
+            "pt_BR": "México",
+            "it_IT": "Messico",
+            "fr_FR": "Mexique"
+        },
+        "country": {
+            "id": 142,
+            "iso2": "MX"
+        },
+        "legacy_id": 8
+    },
+    {
+        "abbreviation": "MZ",
+        "name": "Mozambique",
+        "translations": {
+            "en_US": "Mozambique",
+            "pt_BR": "Moçambique",
+            "it_IT": "Mozambico",
+            "fr_FR": "Mozambique"
+        },
+        "country": {
+            "id": 150,
+            "iso2": "MZ"
+        },
+        "legacy_id": 156
+    },
+    {
+        "abbreviation": "NI",
+        "name": "Nicaragua",
+        "translations": {
+            "en_US": "Nicaragua",
+            "pt_BR": "Nicarágua",
+            "it_IT": "Nicaragua",
+            "fr_FR": "Nicaragua"
+        },
+        "country": {
+            "id": 159,
+            "iso2": "NI"
+        },
+        "legacy_id": 160
+    },
+    {
+        "abbreviation": "NG",
+        "name": "Nigeria",
+        "translations": {
+            "en_US": "Nigeria",
+            "pt_BR": "Nigéria",
+            "it_IT": "Nigeria",
+            "fr_FR": "Nigéria"
+        },
+        "country": {
+            "id": 161,
+            "iso2": "NG"
+        },
+        "legacy_id": 176
+    },
+    {
+        "abbreviation": "PA",
+        "name": "Panamá",
+        "translations": {
+            "en_US": "Panama",
+            "pt_BR": "Panamá",
+            "it_IT": "Panama",
+            "fr_FR": "Panama"
+        },
+        "country": {
+            "id": 170,
+            "iso2": "PA"
+        },
+        "legacy_id": 9
+    },
+    {
+        "abbreviation": "PY",
+        "name": "Paraguay",
+        "translations": {
+            "en_US": "Paraguay",
+            "pt_BR": "Paraguai",
+            "it_IT": "Paraguay",
+            "fr_FR": "Paraguay"
+        },
+        "country": {
+            "id": 172,
+            "iso2": "PY"
+        },
+        "legacy_id": 158
+    },
+    {
+        "abbreviation": "PE",
+        "name": "Perú",
+        "translations": {
+            "en_US": "Peru",
+            "pt_BR": "Peru",
+            "it_IT": "Perù",
+            "fr_FR": "Pérou"
+        },
+        "country": {
+            "id": 173,
+            "iso2": "PE"
+        },
+        "legacy_id": 10
+    },
+    {
+        "abbreviation": "PL",
+        "name": "Polonia",
+        "translations": {
+            "en_US": "Poland",
+            "pt_BR": "Polónia",
+            "it_IT": "Polonia",
+            "fr_FR": "Pologne"
+        },
+        "country": {
+            "id": 176,
+            "iso2": "PL"
+        },
+        "legacy_id": 171
+    },
+    {
+        "abbreviation": "PT",
+        "name": "Portugal",
+        "translations": {
+            "en_US": "Portugal",
+            "pt_BR": "Portugal",
+            "it_IT": "Portogallo",
+            "fr_FR": "Portugal"
+        },
+        "country": {
+            "id": 177,
+            "iso2": "PT"
+        },
+        "legacy_id": 153
+    },
+    {
+        "abbreviation": "PR",
+        "name": "Puerto Rico",
+        "translations": {
+            "en_US": "Puerto Rico",
+            "pt_BR": "Porto Rico",
+            "it_IT": "Porto Rico",
+            "fr_FR": "Porto Rico"
+        },
+        "country": {
+            "id": 178,
+            "iso2": "PR"
+        },
+        "legacy_id": 11
+    },
+    {
+        "abbreviation": "DO",
+        "name": "República Dominicana",
+        "translations": {
+            "en_US": "Dominican Republic",
+            "pt_BR": "República Dominicana",
+            "it_IT": "Repubblica Dominicana",
+            "fr_FR": "République dominicaine"
+        },
+        "country": {
+            "id": 62,
+            "iso2": "DO"
+        },
+        "legacy_id": 150
+    },
+    {
+        "abbreviation": "SN",
+        "name": "Senegal",
+        "translations": {
+            "en_US": "Senegal",
+            "pt_BR": "Senegal",
+            "it_IT": "Senegal",
+            "fr_FR": "Sénégal"
+        },
+        "country": {
+            "id": 195,
+            "iso2": "SN"
+        },
+        "legacy_id": 169
+    },
+    {
+        "abbreviation": "TD",
+        "name": "Tchad",
+        "translations": {
+            "en_US": "Chad",
+            "pt_BR": "Chade",
+            "it_IT": "Ciad",
+            "fr_FR": "Tchad"
+        },
+        "country": {
+            "id": 43,
+            "iso2": "TD"
+        },
+        "legacy_id": 184
+    },
+    {
+        "abbreviation": "TN",
+        "name": "Túnez",
+        "translations": {
+            "en_US": "Tunisia",
+            "pt_BR": "Tunísia",
+            "it_IT": "Tunisia",
+            "fr_FR": "Tunisie"
+        },
+        "country": {
+            "id": 224,
+            "iso2": "TN"
+        },
+        "legacy_id": 174
+    },
+    {
+        "abbreviation": "UY",
+        "name": "Uruguay",
+        "translations": {
+            "en_US": "Uruguay",
+            "pt_BR": "Uruguai",
+            "it_IT": "Uruguay",
+            "fr_FR": "Uruguay"
+        },
+        "country": {
+            "id": 235,
+            "iso2": "UY"
+        },
+        "legacy_id": 146
+    },
+    {
+        "abbreviation": "VE",
+        "name": "Venezuela",
+        "translations": {
+            "en_US": "Venezuela",
+            "pt_BR": "Venezuela",
+            "it_IT": "Venezuela",
+            "fr_FR": "Venezuela"
+        },
+        "country": {
+            "id": 239,
+            "iso2": "VE"
+        },
+        "legacy_id": 157
+    }
+]

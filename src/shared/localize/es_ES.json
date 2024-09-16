@@ -1,0 +1,131 @@
+{
+    "appTitle": "Responsables de Reincorporación",
+    "sidebar": {
+        "reinstatementResponsibles": "Responsables de Reincorporación",
+        "logout": "Cerrar sesión"
+    },
+    "login": {
+        "title": "Responsables de Reincorporación",
+        "button": "Accede con Google",
+        "accessWithGoogle": "Acceso a delegaciones de reincorporación",
+        "login": "Iniciar sesión",
+        "error": "Error"
+    },
+    "reinstatementResponsibleStatus": {
+        "active": "Activo",
+        "inactive": "Inactivo"
+    },
+    "reinstatementResponsiblesListPage": {
+        "title": "Lista de Responsables de Reincorporación",
+        "create": "Crear",
+        "search": "Buscar Responsable",
+        "headquarter": "Sede",
+        "status": "Estado",
+        "clear": "LIMPIAR"
+    },
+    "reinstatementResponsiblesTable": {
+        "name": "Nombre",
+        "headquarter": "Sede",
+        "status": "Estado",
+        "S_No": "N°",
+        "noContent": {
+            "heading": "Datos no encontrados",
+            "subheading": "Aún no has creado ningún registro.",
+            "filtermessage": "No se encontró ningún responsable con los parámetros de búsqueda ingresados. Pruebe otros diferentes para realizar una nueva búsqueda.",
+            "filterHeading": "No se encontraron resultados"
+        },
+        "edit": "Editar",
+        "delete": "Eliminar",
+        "view": "Ver",
+        "pagination": {
+            "goNext": "Ir a la página siguiente",
+            "goPrevious": "Ir a la página anterior",
+            "rowPerPage": "Filas por página:",
+            "of":"de"
+        }
+    },
+    "reinstatementResponsiblesForm": {
+        "title": "Crear Responsable de Reincorporación",
+        "titleEdit": "Editar Responsable de Reincorporación",
+        "titleMobile": "Crear Reincorporación",
+        "titleEditMobile": "Editar",
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "headquarter": "Sede",
+        "email": "Correo electrónico",
+        "status": "Estado",
+        "create": "Crear",
+        "edit": "Actualizar",
+        "cancel": "Cancelar",
+        "cancelAlert": {
+            "title": "Cancelar Reintegro ¿Responsable?",
+            "body": "¿Estás seguro de que deseas cancelar este Responsable de Reincorporación?",
+            "cancelButtonText": "no",
+            "saveButtonText": "si"
+        },
+        "updateAlert": {
+            "title": "Editar Responsable de Reincorporación",
+            "body": " ¿Está seguro de guardar los cambios?",
+            "cancelButtonText": "no",
+            "saveButtonText": "SI"
+        },
+        "deleteAlert": {
+            "title": "Eliminar Responsable de Reincorporación",
+            "body": "¿Está seguro de eliminar al usuario",
+            "cancelButtonText": "Cancelar",
+            "saveButtonText": "Borrar"
+        },
+        "success": {
+            "update": "Guardado exitosamente",
+            "delete": "Borrado exitosamente",
+            "create": "Responsable de Reinstalación creado exitosamente",
+            "changeStatusActive": "Responsables de Reincorporación activados exitosamente",
+            "changeStatusDeactive": "Responsables de Reincorporación desactivados exitosamente",
+            "fetch": "Datos recuperados exitosamente"
+        },
+        "error": {
+            "Request failed with status code 500": "Algo salió mal",
+            "Request failed with status code 409": "el Email ya existe",
+            "update": "Algo salió mal",
+            "delete": "Algo salió mal",
+            "create": "Algo salió mal",
+            "changeStatus": "Algo salió mal",
+            "fetch": "Algo salió mal",
+            "fetchNoContent":"No se encontraron datos"
+        }
+    },
+    "reinstatementResponsiblesView": {
+        "title": "Responsable de Reincorporación",
+        "titleMobile":"Avance",
+        "firstName": "Nombre:",
+        "lastName": "Apellido:",
+        "headquarter": "Sede:",
+        "email": "Correo electrónico:",
+        "status": "Estado:"
+    },
+    "dialogBox": {
+        "save": "Guardar",
+        "cancel": "Cancelar"
+    },
+    "reinstatementResponsiblesFormSchema": {
+        "firstNameRequiredError": "El nombre es requerido",
+        "firstNameMinError": "El nombre debe tener al menos 3 caracteres",
+        "firstNameMaxError": "El nombre debe tener como máximo 250 caracteres",
+        "lastNameRequiredError": "El apellido es requerido",
+        "lastNameMinError": "El apellido debe tener al menos 3 caracteres",
+        "lastNameMaxError": "El apellido debe tener como máximo 250 caracteres",
+        "emailRequiredError": "El correo electrónico es requerido",
+        "emailRequiredMax": "El correo electrónico debe tener como máximo 320 caracteres",
+        "emailInvalidError": "Dirección de correo electrónico no válida",
+        "headquarterError": "Por favor seleccione una sede"
+    },
+    "filterModal": {
+        "title": "Filtrar",
+        "headquarter": "Sede",
+        "status": "Estado",
+        "apply": "Aplicar"
+    },
+    "select": {
+        "noOptions": "Sin opciones"
+    }
+}

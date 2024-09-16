@@ -1,0 +1,131 @@
+{
+    "appTitle": "Reincorporation Delegations",
+    "sidebar": {
+        "reinstatementResponsibles": "Reinstatement Responsibles",
+        "logout": "Log out"
+    },
+    "login": {
+        "title": "Reincorporation Delegations",
+        "button": "Sign in with Google",
+        "accessWithGoogle": "Access to reincorporation delegations",
+        "login": "Sign in",
+        "error": "Error"
+    },
+    "reinstatementResponsibleStatus": {
+        "active": "Active",
+        "inactive": "Inactive"
+    },
+    "reinstatementResponsiblesListPage": {
+        "title": "Reinstatement Responsibles List",
+        "create": "Create",
+        "search": "Search responsible",
+        "headquarter": "Headquarter",
+        "status": "Status",
+        "clear": "Clear"
+    },
+    "reinstatementResponsiblesTable": {
+        "name": "Name",
+        "headquarter": "Headquarter",
+        "status": "Status",
+        "S_No": "N°",
+        "noContent": {
+            "heading": "No data found",
+            "subheading": "You have not created any Reinstatement Responsible yet.",
+            "filtermessage":"No responsible with the search parameters entered. Try different ones to perform a new search.",
+            "filterHeading":"No result found"
+        },
+        "edit": "Edit",
+        "delete": "Delete",
+        "view": "View",
+        "pagination": {
+            "goNext": "Go to next page",
+            "goPrevious": "Go to previous page",
+            "rowPerPage": "Rows per page:",
+            "of":"of"
+        }
+    },
+    "reinstatementResponsiblesForm": {
+        "title": "Create Reinstatement Responsible",
+        "titleEdit": "Edit Reinstatement Responsible",
+        "titleMobile": "Create Reinstatement",
+        "titleEditMobile": "Edit",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "headquarter": "Headquarter",
+        "email": "Email",
+        "status": "Status",
+        "create": "Create",
+        "edit": "Update",
+        "cancel": "Cancel",
+        "cancelAlert": {
+            "title": "Cancel Reinstatement Responsible?",
+            "body": "Are you sure you want to cancel this Reinstatement Responsible?",
+            "cancelButtonText": "No",
+            "saveButtonText": "Yes"
+        },
+        "updateAlert": {
+            "title": "Edit Reinstatement Responsible",
+            "body": "Are you sure you want to save the changes?",
+            "cancelButtonText": "Cancel",
+            "saveButtonText": "Accept"
+        },
+        "deleteAlert": {
+            "title": "Delete Reinstatement Responsible",
+            "body": "Are you sure to delete the user",
+            "cancelButtonText": "Cancel",
+            "saveButtonText": "Delete"
+        },
+        "success": {
+            "update": "Saved successfully",
+            "delete": "was successfully deleted",
+            "create": "Reinstatement Responsible created successfully",
+            "changeStatusActive": "Reinstatement Responsibles activated successfully",
+            "changeStatusDeactive": "Reinstatement Responsibles deactivated successfully",
+            "fetch": "Reinstatement Responsibles fetched successfully"
+        },
+        "error": {
+            "Request failed with status code 500": "Something went wrong",
+            "Request failed with status code 409": "Email already exists",
+            "update": "Something went wrong",
+            "delete": "Something went wrong",
+            "create": "Something went wrong",
+            "changeStatus": "Something went wrong",
+            "fetch": "Something went wrong",
+            "fetchNoContent":"No Responsible found"
+        }
+    },
+    "reinstatementResponsiblesView": {
+        "title": "Reinstatement Responsible",
+        "titleMobile":"Preview",
+        "firstName": "First name:",
+        "lastName": "Last name:",
+        "headquarter": "Headquarter:",
+        "email": "Email:",
+        "status": "Status:"
+    },
+    "dialogBox": {
+        "save": "Save",
+        "cancel": "Cancel"
+    },
+    "reinstatementResponsiblesFormSchema": {
+        "firstNameRequiredError": "First name is required",
+        "firstNameMinError": "First name must be at least 3 characters long",
+        "firstNameMaxError": "First name must be at most 250 characters",
+        "lastNameRequiredError": "Last name is required",
+        "lastNameMinError": "Last name must be at least 3 characters long",
+        "lastNameMaxError": "Last name must be at most 250 characters",
+        "emailRequiredError": "Email is required",
+        "emailRequiredMax": "Email must be at most 320 characters",
+        "emailInvalidError": "Invalid email address",
+        "headquarterError": "Please select a headquarter"
+    },
+    "filterModal": {
+        "title": "Filter",
+        "headquarter": "Headquarter",
+        "status": "Status",
+        "apply": "Apply"
+    },
+    "select": {
+        "noOptions": "No options"
+    }
+}

@@ -1,0 +1,131 @@
+{
+  "appTitle": "Delegações de Reincorporação",
+  "sidebar": {
+    "reinstatementResponsibles": "Responsáveis pela Reincorporação",
+    "logout": "Sair"
+  },
+  "login": {
+    "title": "Delegações de Reincorporação",
+    "button": "Entrar com o Google",
+    "accessWithGoogle": "Acesso às delegações de reincorporação",
+    "login": "Entrar",
+    "error": "Erro"
+  },
+  "reinstatementResponsibleStatus": {
+    "active": "Ativo",
+    "inactive": "Inativo"
+  },
+  "reinstatementResponsiblesListPage": {
+    "title": "Lista de Responsáveis pela Reincorporação",
+    "create": "Criar",
+    "search": "Pesquisar responsável",
+    "headquarter": "Sede",
+    "status": "Estado",
+    "clear": "Limpar"
+  },
+  "reinstatementResponsiblesTable": {
+    "name": "Nome",
+    "headquarter": "Sede",
+    "status": "Estado",
+    "S_No": "N°",
+    "noContent": {
+      "heading": "Nenhum dado encontrado",
+      "subheading": "Ainda não criou nenhum Responsável pela Reincorporação.",
+      "filtermessage": "Nenhum responsável encontrado com os parâmetros de busca inseridos. Tente outros para realizar uma nova busca.",
+      "filterHeading": "Nenhum resultado encontrado"
+    },
+    "edit": "Editar",
+    "delete": "Excluir",
+    "view": "Ver",
+    "pagination": {
+      "goNext": "Ir para a próxima página",
+      "goPrevious": "Ir para a página anterior",
+      "rowPerPage": "Linhas por página:",
+      "of": "de"
+    }
+  },
+  "reinstatementResponsiblesForm": {
+    "title": "Criar Responsável pela Reincorporação",
+    "titleEdit": "Editar Responsável pela Reincorporação",
+    "titleMobile": "Criar Reintegração",
+    "titleEditMobile": "Editar",
+    "firstName": "Nome",
+    "lastName": "Sobrenome",
+    "headquarter": "Sede",
+    "email": "E-mail",
+    "status": "Estado",
+    "create": "Criar",
+    "edit": "atualizar",
+    "cancel": "Cancelar",
+    "cancelAlert": {
+      "title": "Cancelar o Responsável pela Reincorporação?",
+      "body": "Tem certeza de que deseja cancelar este Responsável pela Reincorporação?",
+      "cancelButtonText": "Não",
+      "saveButtonText": "Sim"
+    },
+    "updateAlert": {
+      "title": "Editar o Responsável pela Reincorporação",
+      "body": "Tem certeza de que deseja salvar as alterações?",
+      "cancelButtonText": "Cancelar",
+      "saveButtonText": "Aceitar"
+    },
+    "deleteAlert": {
+      "title": "Excluir o Responsável pela Reincorporação",
+      "body": "Tem certeza de que deseja excluir o usuário",
+      "cancelButtonText": "Cancelar",
+      "saveButtonText": "Excluir"
+    },
+    "success": {
+      "update": "Salvo com sucesso",
+      "delete": "excluído com sucesso",
+      "create": "Responsável pela Reincorporação criado com sucesso",
+      "changeStatusActive": "Responsáveis pela Reincorporação ativados com sucesso",
+      "changeStatusDeactive": "Responsáveis pela Reincorporação desativados com sucesso",
+      "fetch": "Responsáveis pela Reincorporação obtidos com sucesso"
+    },
+    "error": {
+      "Request failed with status code 500": "Ocorreu um erro",
+      "Request failed with status code 409": "Email já existe",
+      "update": "Ocorreu um erro",
+      "delete": "Ocorreu um erro",
+      "create": "Ocorreu um erro",
+      "changeStatus": "Ocorreu um erro",
+      "fetch": "Ocorreu um erro",
+      "fetchNoContent": "Nenhum conteúdo encontrado"
+    }
+  },
+  "reinstatementResponsiblesView": {
+    "title": "Responsável pela Reincorporação",
+    "titleMobile": "Visualização",
+    "firstName": "Nome:",
+    "lastName": "Sobrenome:",
+    "headquarter": "Sede:",
+    "email": "E-mail:",
+    "status": "Estado:"
+  },
+  "dialogBox": {
+    "save": "Salvar",
+    "cancel": "Cancelar"
+  },
+  "reinstatementResponsiblesFormSchema": {
+    "firstNameRequiredError": "O nome é obrigatório",
+    "firstNameMinError": "O nome deve ter pelo menos 3 caracteres",
+    "firstNameMaxError": "O nome deve ter no máximo 250 caracteres",
+    "lastNameRequiredError": "O sobrenome é obrigatório",
+    "lastNameMinError": "O sobrenome deve ter pelo menos 3 caracteres",
+    "lastNameMaxError": "O sobrenome deve ter no máximo 250 caracteres",
+    "emailRequiredError": "O email é obrigatório",
+    "emailRequiredMax": "O email deve ter no máximo 320 caracteres",
+    "emailInvalidError": "Endereço de email inválido",
+    "headquarterError": "Por favor, selecione uma sede"
+  },
+  "filterModal": {
+    "title": "Filtro",
+    "headquarter": "Sede",
+    "status": "Estado",
+    "apply": "Aplicar"
+  },
+  "select": {
+    "noOptions": "Sem opções"
+  }
+}
