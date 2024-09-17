@@ -1,0 +1,72 @@
+.sidebar {
+    min-width: 72px;
+    height: 100%;
+    display: block;
+    background-color: var(--white);
+    width: 256px;
+    transition: width 0.3s ease-in-out;
+    color: var(--secondary-800);
+}
+
+.sidebar.opened {
+    width: 256px !important;
+    min-width: 256px !important;
+}
+
+.sidebar.closed {
+    width: 72px;
+}
+
+// LOGO BOX STYLING
+.logo-box {
+    background: var(--logo-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    background: var(--info-light);
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+
+    img {
+        height: 24px;
+        width: 24px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+.contentContainer {
+    &.opened {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    &.closed {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    height: 100%;
+    padding: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .contentContainer.opened,
+    .contentContainer.closed {
+        width: 100vw;
+        padding: 16px;
+        padding-bottom: 12px !important;
+        margin-bottom: 12px;
+        overflow: hidden;
+    }
+}

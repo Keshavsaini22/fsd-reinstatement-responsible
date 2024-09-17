@@ -1,0 +1,63 @@
+.profile-menu-items {
+  display: flex;
+  min-width: 200px;
+}
+
+.profile-menu-items-without-avatar {
+  min-width: 200px;
+  min-height: 56px !important;
+}
+
+.profile-menu-items-without-avatar .profile-menu-items-text p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.02px;
+  letter-spacing: 0.17px;
+}
+
+.profile-menu-items:first-child {
+  gap: 16px;
+}
+
+.logout-button {
+  border: none;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  padding: 0px !important;
+  background-color: transparent;
+  cursor: pointer;
+  width: 100%;
+  min-height: 40px;
+}
+
+
+.profile-menu-lists {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  min-height: 40px !important;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-menu-lists p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.logout-menu-item {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  display: flex;
+  justify-content: center;
+}
+
+.divider {
+  margin-bottom: 0px !important;
+}

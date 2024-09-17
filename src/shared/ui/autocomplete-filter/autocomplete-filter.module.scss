@@ -1,0 +1,137 @@
+.filter-chip {
+  color: var(--secondary-800) !important;
+  background-color: var(--background) !important;
+  text-transform: capitalize !important;
+  padding: 7.5px 8px !important;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .deleteicon {
+    font-size: 16px !important;
+  }
+
+  .svg-icon {
+    color: rgba(0, 0, 0, 0.54) !important;
+    margin: 0 !important;
+    font-size: 20px !important;
+  }
+
+  span {
+    padding: 6px !important;
+  }
+
+  &.selected {
+    background-color: var(--info-light) !important;
+
+    > span {
+      padding: 7px 6px;
+    }
+  }
+
+  > span {
+    p {
+      font-size: 12px !important;
+    }
+  }
+}
+
+.auto-complete-popper {
+  & > div {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    overflow: hidden;
+  }
+}
+
+.autocomplete-filter {
+  color: var(--secondary-800) !important;
+  min-width: 300px !important;
+
+  fieldset {
+    border: none !important;
+  }
+
+  .mui-textfield {
+    border-radius: 0 !important;
+
+    input {
+      font-size: 14px !important;
+      color: var(--secondary-800) !important;
+    }
+  }
+}
+
+.autocomplete-list-item {
+  font-size: 14px !important;
+  padding: 12px 16px !important;
+  color: var(--secondary-800) !important;
+
+  &[aria-selected="true"] {
+    background-color: var(--info-light);
+
+    &:hover {
+      background-color: var(--info-light) !important;
+    }
+  }
+
+  > span {
+    padding: 0px !important;
+    margin-right: 16px !important;
+  }
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.04) !important;
+  }
+}
+
+.list-box-styles {
+  box-sizing: border-box !important;
+  height: max-content !important;
+  max-height: 250px !important;
+}
+
+@media only screen and (max-width: 599px) {
+  .autocomplete-filter {
+    width: calc(100vw - 32px) !important;
+  }
+
+  .filter-chip {
+    color: var(--secondary-700) !important;
+    text-transform: capitalize !important;
+    height: 40px !important;
+    font-weight: 400 !important;
+    background-color: var(--white) !important;
+    border: 1px solid rgba(0, 0, 0, 0.23) !important;
+    border-radius: 4px !important;
+
+    &:hover {
+      cursor: pointer !important;
+      border-color: var(--secondary-800) !important;
+    }
+
+    &.selected {
+      background-color: var(--info-light) !important;
+      color: var(--secondary-800) !important;
+
+      .svg-icon {
+        color: var(--secondary-800) !important;
+      }
+
+      :nth-child(3) {
+        fill: var(--secondary-600) !important;
+      }
+    }
+
+    > span {
+      width: 100% !important;
+      padding: 6px !important;
+
+      > p {
+        font-size: 14px !important;
+        font-weight: 400 !important;
+      }
+    }
+  }
+}

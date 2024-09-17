@@ -2,6 +2,7 @@
 import { FC, ReactNode, useState, createContext, useMemo, useCallback, useContext, useEffect } from "react";
 import getScreenSize from "../common/get-screen-type";
 export type SidebarVariant = "persist" | "close";
+
 interface SidebarContext {
   sidebarToggle: boolean;
   toggleSidebar: () => void;

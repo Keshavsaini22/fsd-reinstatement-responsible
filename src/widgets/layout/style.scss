@@ -1,0 +1,14 @@
+.sidebarLayout {
+  display: flex;
+  background-color: var(--background);
+  height: 100% !important;
+  margin-top: 64px !important;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .sidebarLayout {
+    margin-top: 56px !important;
+    overflow: hidden;
+  }
+}
