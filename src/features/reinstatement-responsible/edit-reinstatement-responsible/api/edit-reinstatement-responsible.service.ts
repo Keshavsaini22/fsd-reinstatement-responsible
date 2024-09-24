@@ -1,7 +1,7 @@
 import { axiosInstance } from "@/shared/configs/axios-config";
 import { EditReinstatementResponsibleDetailsFormSchema } from "../model/edit-reinstatement-responsible-schema";
 
-export const updateReinstatementResponsible = async ({
+export const updateReinstatementResponsibleService = async ({
   data,
   id,
 }: {

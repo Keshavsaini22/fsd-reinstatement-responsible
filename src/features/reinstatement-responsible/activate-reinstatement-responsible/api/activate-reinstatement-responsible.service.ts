@@ -1,6 +1,6 @@
 import { axiosInstance } from "@/shared/configs/axios-config";
 
-export const activateReinstatementResponsible = async ({
+export const activateReinstatementResponsibleService = async ({
   id,
   data,
 }: {

@@ -1,0 +1,1 @@
+export const registerReinstatementResponsibleType = "responsibles/createReinstatementResponsibles";
