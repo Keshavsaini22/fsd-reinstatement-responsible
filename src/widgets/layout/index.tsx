@@ -7,10 +7,10 @@ import { useTranslations } from "next-intl";
 import { isMobile } from "react-device-detect";
 import { User } from "next-auth";
 import { GoogleResponse } from "@/views/login/model/firebase/get-google-response";
-import { signOutUser } from "@/shared/auth/sign-out.action";
 import { callSnackbar } from "@/shared/ui/snackbar/call-snackbar";
 import { getSession } from "@/shared/auth/get-auth.action";
 import Sidebar from "./sidebar/sidebar";
+import { signOutUser } from "@/features/auth/logout/model/sign-out.action";
 
 
 export const LayoutComponent = ({ children }: { children: ReactNode }) => {

@@ -1,9 +1,9 @@
 import "./globals.scss";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
-import GlobalProviders from "./global-providers";
 import { PublicEnvProvider } from "next-runtime-env";
 import { Metadata } from "next";
+import GlobalProviders from "../providers/global-providers";
 
 export const metadata: Metadata = {
   title: "",

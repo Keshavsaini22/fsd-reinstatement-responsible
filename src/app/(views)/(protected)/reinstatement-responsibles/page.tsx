@@ -1,7 +1,8 @@
+import ReinstatementResponsiblePage from "@/views/reinstatement-responsible/ui";
 import React from "react";
 
 function page() {
-  return <div>page</div>;
+  return <ReinstatementResponsiblePage/>;
 }
 
 export default page;

@@ -1,5 +1,5 @@
 "use server";
-import { signOut } from "./auth";
+import { signOut } from "../../../../shared/auth/auth";
 
 export async function signOutUser() {
   await signOut();
