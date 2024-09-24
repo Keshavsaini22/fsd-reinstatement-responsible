@@ -6,7 +6,7 @@ import "./style.scss";
 import { useTranslations } from "next-intl";
 import { isMobile } from "react-device-detect";
 import { User } from "next-auth";
-import { GoogleResponse } from "@/views/login/model/firebase/get-google-response";
+import { GoogleResponse } from "@/pages/login/model/firebase/get-google-response";
 import { callSnackbar } from "@/shared/ui/snackbar/call-snackbar";
 import { getSession } from "@/shared/auth/get-auth.action";
 import Sidebar from "./sidebar/sidebar";
