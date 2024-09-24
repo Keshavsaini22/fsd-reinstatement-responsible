@@ -8,15 +8,6 @@ type ReinstatementResponsible = {
     created_at: string;
     updated_at: string;
   };
-  
-  type ReinstatementResponsibleFilterQuery = {
-    headquarters: string[];
-    is_active: string;
-    search: string;
-    limit?: number;
-    page?: number;
-  };
-
 
   export type ResponsibleLoadingType = {
   create: boolean;

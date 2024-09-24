@@ -1,8 +1,6 @@
-import React from "react";
-
-import { redirect } from "next/navigation";
+import LoginPage from "@/pages/login/ui";
 import { auth } from "@/shared/auth/auth";
-import LoginPage from "@/views/login/ui";
+import { redirect } from "next/navigation";
 
 const page = async () => {
   const session = await auth();

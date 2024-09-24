@@ -1,10 +1,10 @@
 import { callSnackbar } from "@/shared/ui/snackbar/call-snackbar";
-import { InitialState } from "../model/resinstatement-responsibles";
-import { fetchReinstatementResponsiblesAction } from "@/features/reinstatement-responsible/search-and-filter-reinstatement-responsible/api/get-reinstatement-responsibles.action";
+import { InitialState } from "../model/reinstatement-responsible";
+import { listReinstatementResponsiblesAction } from "@/features/reinstatement-responsible/list-reinstatement-responsibles/model/thunk";
 
-export const fetchReinstatementResponsiblesReducers = (builder: any) => {
+export const listReinstatementResponsiblesReducers = (builder: any) => {
   builder
-    .addCase(fetchReinstatementResponsiblesAction.fulfilled, (state: InitialState, action: any) => {
+    .addCase(listReinstatementResponsiblesAction.fulfilled, (state: InitialState, action: any) => {
       state.loading = { ...state.loading, fetch: false };
       if (action.payload.resp) {
         if (action.payload.isMobile) {
@@ -25,11 +25,11 @@ export const fetchReinstatementResponsiblesReducers = (builder: any) => {
         state.per_page = 0;
       }
     })
-    .addCase(fetchReinstatementResponsiblesAction.rejected, (state: InitialState) => {
+    .addCase(listReinstatementResponsiblesAction.rejected, (state: InitialState) => {
       state.loading = { ...state.loading, fetch: false };
       callSnackbar("reinstatementResponsiblesForm.error.fetch", "error");
     })
-    .addCase(fetchReinstatementResponsiblesAction.pending, (state: InitialState) => {
+    .addCase(listReinstatementResponsiblesAction.pending, (state: InitialState) => {
       state.loading = { ...state.loading, fetch: true };
     });
 };

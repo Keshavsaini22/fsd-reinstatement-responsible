@@ -10,7 +10,7 @@ import { GoogleResponse } from "@/pages/login/model/firebase/get-google-response
 import { callSnackbar } from "@/shared/ui/snackbar/call-snackbar";
 import { getSession } from "@/shared/auth/get-auth.action";
 import Sidebar from "./sidebar/sidebar";
-import { signOutUser } from "@/features/auth/logout/model/sign-out.action";
+import { signOutUser } from "@/features/auth/logout/model/action";
 
 
 export const LayoutComponent = ({ children }: { children: ReactNode }) => {

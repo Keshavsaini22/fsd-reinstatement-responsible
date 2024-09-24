@@ -1,6 +1,6 @@
 import { callSnackbar } from "@/shared/ui/snackbar/call-snackbar";
-import { InitialState } from "../model/resinstatement-responsibles";
-import { updateReinstatementResponsibleAction } from "@/features/reinstatement-responsible/update-reinstatement-responsible/model/update-reinstatement-responsible.action";
+import { InitialState } from "../model/reinstatement-responsible";
+import { updateReinstatementResponsibleAction } from "@/features/reinstatement-responsible/edit-reinstatement-responsible/model/thunk";
 
 export const updateReinstatementResponsibleReducers = (builder: any) => {
   builder
